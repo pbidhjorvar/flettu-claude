@@ -27,8 +27,10 @@ just works.
 
 ## Cost
 
-Reading is free. `build_research`, `create_comparison` and the screens use a
-small amount of the account's credit. Before running one, call
+Searching, company profiles, financials, comparisons, research packages and
+screens use a small amount of the account's credit. Source pages, the company
+history, metric definitions, pricing, saved results and exports are free.
+Before a larger job (`build_research`, `create_comparison` or a screen), call
 `get_research_pricing`, tell the user what it costs, and go ahead when they
 agree. `get_account_usage` shows the balance.
 
@@ -49,6 +51,6 @@ agree. `get_account_usage` shows the balance.
 
 ## When the data is not there yet
 
-If a company or year has not been collected, the read tools queue it for
-collection at no charge. Tell the user it is being fetched and offer to check
-again with `get_ingestion_status`.
+If a company or year has not been collected yet, `get_company` and
+`get_financials` queue it for collection. Tell the user it is being fetched and
+offer to look again in a little while.

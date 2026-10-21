@@ -28,7 +28,8 @@ The connector follows your Claude account to Claude Desktop and the mobile app.
 - **Skill** `flettu`: how to research a company, compare and cite sources,
   and how to present Icelandic figures.
 
-Reading is free. Comparisons and screens use a small amount of your Flettu
-credit; Claude tells you the price first.
+Searches, company figures, comparisons and screens use a small amount of your
+Flettu credit; Claude tells you the price before larger jobs. Source pages and
+exports are free.
 
 Help: [flettu.is/tengingar](https://flettu.is/tengingar) · hallo@flettu.is
