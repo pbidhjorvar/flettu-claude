@@ -2,7 +2,7 @@
   "name": "flettu",
   "owner": {
     "name": "Flettu",
-    "email": "hallo@flettu.is"
+    "email": "flettu@flettu.is"
   },
   "metadata": {
     "description": "Flettu: Icelandic company data with sourced annual-report figures, for Claude.",

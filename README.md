@@ -32,4 +32,4 @@ Searches, company figures, comparisons and screens use a small amount of your
 Flettu credit; Claude tells you the price before larger jobs. Source pages and
 exports are free.
 
-Help: [flettu.is/tengingar](https://flettu.is/tengingar) · hallo@flettu.is
+Help: [flettu.is/tengingar](https://flettu.is/tengingar) · flettu@flettu.is
