@@ -16,11 +16,9 @@ first question opens a browser to sign in.
 
 ## Claude (web, desktop and mobile)
 
-1. Open **Settings → Connectors → Add custom connector**.
-2. Name it **Flettu** and paste `https://flettu.is/api/mcp`.
-3. Select **Connect** and sign in to Flettu.
-
-The connector follows your Claude account to Claude Desktop and the mobile app.
+Open [Flettu in the Claude Connectors Directory](https://claude.ai/directory/connectors/flettu),
+select **Connect** and sign in to Flettu. The connector follows your Claude
+account to Claude Desktop and the mobile app.
 
 ## What is included
 
