@@ -1,0 +1,12 @@
+{
+  "name": "flettu",
+  "version": "1.0.0",
+  "description": "Icelandic company data with sourced annual-report figures: search, company profiles, financials, comparisons and screens. Sign in with your Flettu account on first use.",
+  "author": {
+    "name": "Flettu",
+    "email": "hallo@flettu.is",
+    "url": "https://flettu.is"
+  },
+  "homepage": "https://flettu.is/tengingar",
+  "keywords": ["iceland", "company data", "annual reports", "ársreikningar", "fyrirtæki"]
+}

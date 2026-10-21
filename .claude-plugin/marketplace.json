@@ -1,0 +1,22 @@
+{
+  "name": "flettu",
+  "owner": {
+    "name": "Flettu",
+    "email": "hallo@flettu.is"
+  },
+  "metadata": {
+    "description": "Flettu: Icelandic company data with sourced annual-report figures, for Claude.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "flettu",
+      "source": "./plugins/flettu",
+      "description": "Search Icelandic companies, read sourced annual-report figures, compare companies and screen industries with Flettu. Sign in with your Flettu account on first use.",
+      "version": "1.0.0",
+      "category": "data",
+      "keywords": ["iceland", "company data", "annual reports", "ársreikningar", "fyrirtæki"],
+      "homepage": "https://flettu.is/tengingar"
+    }
+  ]
+}
