@@ -12,30 +12,31 @@ just works.
 
 ## The workflow
 
-1. **Find the company.** `search_companies` with a name or kennitala. Pick the
-   right match by name and kennitala; if several fit, ask the user which one.
-2. **Read it.** `get_company` for the profile, `get_company_timeline` for status
-   and history, `get_financials` for figures by year.
-3. **Compare or screen.** `create_comparison` (two to ten companies, several
-   years) or `screen_companies` / `screen_companies_by_attributes` for a
-   filtered list. Use `discover_company_attributes` and `get_metric_catalog`
-   first to learn what can be filtered and how metrics are defined.
-4. **Show the source.** For any figure the user will rely on, call
+1. **Lists, rankings and totals across companies:** `query_companies`. The
+   largest by revenue, most profitable, most employees, fastest growth, a town,
+   an industry (ÍSAT), a legal form or a founding decade; filters on any
+   figure; totals per industry, town or legal form (a group counts once).
+   Amounts are ISK; foreign filers are converted at the year's average rate.
+2. **One company:** `search_companies` with a name or kennitala, then
+   `get_company` (profile, group, key figures) and `get_financials` (every
+   figure by year with change from the year before). If several companies
+   fit a name, ask the user which one.
+3. **Compare:** `compare_companies` (two to ten companies, chosen years).
+4. **Show the source.** For a figure read from a filed report, call
    `get_report_evidence` and cite the document and page.
 5. **Export.** `export_research` with `format` xlsx, pdf, csv or json when the
    user wants a file.
 
 ## Cost
 
-Searching, company profiles, financials, comparisons, research packages and
-screens use a small amount of the account's credit. Source pages, the company
-history, metric definitions, pricing, saved results and exports are free.
-Before a larger job (`build_research`, `create_comparison` or a screen), call
-`get_research_pricing`, tell the user what it costs, and go ahead when they
-agree. `get_account_usage` shows the balance.
+Flettu is in beta and free to use.
 
 ## How to present results
 
+- **Groups.** Rows say when a company belongs to a larger group
+  (`part_of_group`); mention it when a parent and its subsidiary both appear.
+- **Unusual figures.** When a row is flagged `unusual`, say the profit likely
+  includes one-off items.
 - **Missing is not zero.** When a figure is missing, say it is missing. Never
   treat it as 0 or estimate it.
 - **Say what the number is.** Give the year, unit and scope (company or group)
